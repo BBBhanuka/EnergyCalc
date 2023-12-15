@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnergySavingTips">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="444dp"
+        android:layout_height="844dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/head_home"
+        android:layout_width="379dp"
+        android:layout_height="38dp"
+        android:text="Energy Saving Tips"
+        android:textAlignment="center"
+        android:textColor="#0C0909"
+        android:textColorHint="#9F3C3C"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/videotips"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Tips In Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <Button
+        android:id="@+id/backtoHome4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.77" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="394dp"
+        android:layout_height="458dp"
+        android:lineSpacingExtra="6sp"
+        android:text="1. Turn off lights and appliances when not in use.\n 2. Use energy-efficient light bulbs, such as LED bulbs.\n 3. Set your thermostat to an energy-saving temperature, and use a programmable thermostat to automatically adjust the temperature when you're not at home.\n 4. Unplug electronic devices when they're not in use, or use power strips with on/off switches to easily turn off multiple devices at once.\n 5. Seal air leaks in your home to prevent drafts and reduce the workload on your heating and cooling systems.\n 6. Use natural light whenever possible by opening curtains or blinds during the day.\n 7. Clean your air conditioner's filter regularly to improve its efficiency.\n 8. Avoid using standby mode on electronics and instead power them off completely when not in use.\n 9. Use a laptop instead of a desktop computer, as laptops generally use less energy.\n 10. Use a microwave or toaster oven for small cooking tasks instead of a full-size oven.\n"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

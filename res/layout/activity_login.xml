@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="444dp"
+        android:layout_height="844dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/head_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to EnergyCalc"
+        android:textAlignment="gravity"
+        android:textColor="#403F38"
+        android:textColorLink="#D32525"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <EditText
+        android:id="@+id/editTextLoginUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:shadowColor="#000000"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <EditText
+        android:id="@+id/editTextLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="#000000"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <Button
+        android:id="@+id/btnResetPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <TextView
+        android:id="@+id/forgotPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Your Password ?"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <TextView
+        android:id="@+id/TextViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not have Account ?"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EnergyCalc</string>
+    <string name="title_activity_test">Test</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ceblocation">CEBLocation</string>
+    <string name="google_map_key">AIzaSyBTPDpjtmEtxBc4c2aSpDOa2xwkoIrMN4I</string>
+
+    <string-array name="test">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>VisualBasic</item>
+    </string-array>
+
+
+</resources>
+

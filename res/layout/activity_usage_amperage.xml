@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsageAmperage">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="444dp"
+        android:layout_height="844dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="379dp"
+        android:layout_height="38dp"
+        android:text="Hourly Usage by Amperage"
+        android:textAlignment="center"
+        android:textColor="#0C0909"
+        android:textColorHint="#9F3C3C"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/UsageCalAmperage"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Find Usage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <Button
+        android:id="@+id/BacktoHourlyUsage"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.250342" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="textStart"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <EditText
+        android:id="@+id/InputAmperage"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <EditText
+        android:id="@+id/Voltage"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <EditText
+        android:id="@+id/inputHoursAmperage"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:shadowColor="#000000"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amperage of Equipment"
+        android:textColor="#121111"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltage"
+        android:textColor="#121111"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usage Hours"
+        android:textColor="#121111"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/outputAmp"
+        android:layout_width="285dp"
+        android:layout_height="74dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <TextView
+        android:id="@+id/clsInformationAmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shake Device to Clear input Fields"
+        android:textColor="#FF0606"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

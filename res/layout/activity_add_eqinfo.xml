@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEQinfo">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="444dp"
+        android:layout_height="844dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="379dp"
+        android:layout_height="38dp"
+        android:text="Add Equipment Information"
+        android:textAlignment="center"
+        android:textColor="#0C0909"
+        android:textColorHint="#9F3C3C"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/SaveEqInfo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Save Equipment Information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/cleardb"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F60202"
+        android:text="CLEAR INFORMATION TABLE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/backToUsageCal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.250342" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <EditText
+        android:id="@+id/NameEQ"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Enter Name Here..."
+        android:inputType="text"
+        android:shadowColor="#000000"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#FF1212"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <EditText
+        android:id="@+id/eqWatt"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Enter Wattage Here.."
+        android:inputType="number"
+        android:shadowColor="#000000"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#DD0C0C"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <TextView
+        android:id="@+id/infoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name for Equipment"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <TextView
+        android:id="@+id/infoWatt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wattage of Equipment (W)"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <TextView
+        android:id="@+id/guideCalculation"
+        android:layout_width="373dp"
+        android:layout_height="109dp"
+        android:text="if you do not know equipment wattage, you can calculate it by using Unit conversion in Home screen or else you can do it by using following equation.\n Wattage = Voltage * Amperage of Equipment"
+        android:textAlignment="viewStart"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

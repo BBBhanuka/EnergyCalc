@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppInfo">
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="445dp"-->
+<!--        android:layout_height="127dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.0"-->
+<!--        app:srcCompat="@drawable/black" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="494dp"
+        android:layout_height="815dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back2" />
+
+    <TextView
+        android:id="@+id/textViewInfoHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About this Application"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textViewInfoDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer's info"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="380dp"
+        android:layout_height="444dp"
+        android:text="This is a very simple application that was developed as a requirement of the 2nd-year subject EEI4369: Mobile Application Development for Android in the Bachelor of Software Engineering program at the Open University of Sri Lanka (OUSL). \n\n
+
+Using this application, you can do some calculations and conversions related to electrical energy, such as kWh usage and your monthly electricity bill. Some tips you can use to reduce your electricity bill have been added to this application. \n\n
+
+When developing this application, practical knowledge that was gained from the lab session that was conducted during EEI4369 was used, and those are as follows: \n\n
+1. Basic knowledge of Android Studio \n
+2. Multimedia Intergration \n
+3. Google Maps activity integration \n
+4. Sensor Implementation \n
+5. Database implementation \n\n\Thank you.\n\nYou can visit the OUSL official website by tapping the image below."
+
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <ImageView
+        android:id="@+id/imageLinkedin"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/linkedin" />
+
+    <ImageView
+        android:id="@+id/imageFB"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982"
+        app:srcCompat="@drawable/fb" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="631dp" />
+
+    <ImageView
+        android:id="@+id/logoOUSL"
+        android:layout_width="365dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855"
+        app:srcCompat="@drawable/ousl_logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
